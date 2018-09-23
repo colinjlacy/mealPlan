@@ -2,7 +2,7 @@
 
 This is a simple Alexa skill, still very much in development, that is meant to map user "meals" to grocery items automatically added to an Alexa shopping list.
 
-It doens't do that yet.
+It doesn't do that yet.
 
 Instead, all it does so far is run tests.
 
