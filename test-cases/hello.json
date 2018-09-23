@@ -1,0 +1,41 @@
+{
+    "input": {
+        "version": "1.0",
+        "session": {
+            "new": true,
+            "sessionId": "amzn1.echo-api.session.e870f78e-8234-4644-b92c-26858f58fa0a",
+            "application": {
+                "applicationId": "amzn1.ask.skill.56c93f53-d5ad-4f93-ae28-32ea37dd8d0e"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AHTY2635AD5S5C5U3PROH45LQFNCEWB3SRAOO3CU65NEHUQMYWYHK5LP2JQKMM3MSB3PSE5TOE37OVWBA4AIK6J6PPVSVXTJ2L3VFUXRNCTPEA5SQ45REGIFR4PVFFHAO5QQHYMRUN4NMLKCWEJNGCW4ZPSQRG3KSLHBDV3YXTZWJ6B2Y7H7JEVKIORJOMGKXBYBBGWBJHNM42Q"
+            }
+        },
+        "context": {
+            "System": {
+                "user": {
+                    "userId": "amzn1.ask.account.AHTY2635AD5S5C5U3PROH45LQFNCEWB3SRAOO3CU65NEHUQMYWYHK5LP2JQKMM3MSB3PSE5TOE37OVWBA4AIK6J6PPVSVXTJ2L3VFUXRNCTPEA5SQ45REGIFR4PVFFHAO5QQHYMRUN4NMLKCWEJNGCW4ZPSQRG3KSLHBDV3YXTZWJ6B2Y7H7JEVKIORJOMGKXBYBBGWBJHNM42Q"
+                }
+            }
+        },
+        "request": {
+            "type": "LaunchRequest",
+            "requestId": "amzn1.echo-api.request.59f6d4d8-c765-4b58-9473-64a5fa6141f8",
+            "timestamp": "2018-09-22T13:47:56Z",
+            "locale": "en-US",
+            "shouldLinkResultBeReturned": false
+        }
+    },
+
+    "expected":  {
+        "outputSpeech": {
+            "type": "SSML",
+            "ssml": "<speak>Here's your fact: Saturn radiates two and a half times more energy into space than it receives from the sun.</speak>"
+        },
+        "card": {
+            "type": "Simple",
+            "title": "Space Facts",
+            "content": "Saturn radiates two and a half times more energy into space than it receives from the sun."
+        }
+    }
+}

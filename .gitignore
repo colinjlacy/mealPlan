@@ -110,6 +110,7 @@ typings/
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**/shelf
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
@@ -162,3 +163,5 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+# All the JetBrains
+.idea
